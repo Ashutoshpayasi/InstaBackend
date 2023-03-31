@@ -5,7 +5,7 @@ const dotenv=require("dotenv")
 const cors=require("cors")
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://instafrontend-yy1y.onrender.com"
 }))
 const PORT=process.env.PORT || 8080
 dotenv.config()
